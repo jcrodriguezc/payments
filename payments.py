@@ -88,7 +88,7 @@ def paymentsList():
     print("Total pyments: ",len(payments))    
     i = 0
     for key in payments:                                
-        print(payments[key].paymentDetails())
+        payments[key].paymentDetails()
         i +=1
         if i < len(payments):
             print(input("Press a key to see the next payment"))

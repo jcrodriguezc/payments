@@ -38,8 +38,8 @@ def newCustomer():
 def customerList():
     print("Total customers: ",len(customers))    
     i = 0
-    for key in customers:                                
-        print(customers[key].customerDetails())
+    for key in customers:
+        customers[key].customerDetails()
         i +=1
-        if i < len(customers):
+        if i < len(customers):            
             print(input("Press a key to see the next customer"))

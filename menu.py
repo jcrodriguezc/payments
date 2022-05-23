@@ -26,7 +26,7 @@ def menu():
         print(input("Press a key to return to the menu..."))
         menu()
     elif optionMenu =="5":
-        sys.exit()
+        exit(0)
 
 def customerMenu():
     print("\nCUSTOMER MENU\n1. Create customer\n2. Consult customer\n3. Delete customer\n4. Return")
